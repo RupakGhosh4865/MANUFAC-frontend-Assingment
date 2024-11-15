@@ -1,0 +1,62 @@
+/* Add global styles for the tables */
+#Crop--maxProd--minProd,
+#Crop--avgYield {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#Crop--maxProd--minProd th,
+#Crop--avgYield th,
+#Crop--maxProd--minProd td,
+#Crop--avgYield td {
+  padding: 12px 20px;
+  text-align: left;
+  border-bottom: 2px solid #f3f4f6;
+}
+
+/* Table header styles */
+#Crop--maxProd--minProd th,
+#Crop--avgYield th {
+  background-color: #4caf50; /* Green background */
+  color: white;
+  font-weight: bold;
+}
+
+/* Row hover effect */
+#Crop--maxProd--minProd tr:hover,
+#Crop--avgYield tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Stripe table rows */
+#Crop--maxProd--minProd tr:nth-child(odd),
+#Crop--avgYield tr:nth-child(odd) {
+  background-color: #f9fafb;
+}
+
+/* Add column borders for each cell */
+#Crop--maxProd--minProd td,
+#Crop--avgYield td {
+  border-right: 2px solid #e5e7eb;
+}
+
+#Crop--maxProd--minProd td:last-child,
+#Crop--avgYield td:last-child {
+  border-right: none; /* Remove the border from the last column */
+}
+
+/* Add a border around the entire table */
+#Crop--maxProd--minProd,
+#Crop--avgYield {
+  border: 1px solid #e5e7eb;
+}
+
+/* Title styles */
+.title--maxmincrop,
+.title--avgyield {
+  color: #1d4ed8; /* Blue color for titles */
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
